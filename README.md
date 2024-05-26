@@ -2,7 +2,7 @@ SI_2024_lab2_213032
 Тијана Аврамова 213032
 
 **Control Flow Graph**
-![Control Flow Graph](C:\Users\Lenovo\Downloads\cfg.drawio.png)
+![Control Flow Graph]("C:\Users\Lenovo\Downloads\cfg.drawio.png")
 
 **Цикломатска комплексност**
 Цикломатската комплексност на дадениот код е 10. Оваа пресметка е направена користејќи ја формулата V(G) = P + 1, каде што:
