@@ -96,19 +96,31 @@ P(предикатни јазли) = 9
         assertTrue(SILab2.checkCart(items, 620)); // 350*0.2 + 400*0.1 - 30 = 620
     }
 
+
 1.testAllItemsNull: Проверува дали се фрла исклучок кога листата е null.
+
 2.testNameIsNull: Проверува дали името се поставува на "unknown" кога е null.
+
 3.testNameIsEmpty: Проверува дали името се поставува на "unknown" кога е празно.
+
 4.testBarcodeIsNull: Проверува дали се фрла исклучок кога баркодот е null.
+
 5.testInvalidCharacterInBarcode: Проверува дали се фрла исклучок кога баркодот содржи невалиден карактер.
+
 6.testDiscountGreaterThanZero: Проверува дали се применува попустот кога е поголем од нула.
+
 7.testDiscountIsZero: Проверува дали не се применува попуст кога е нула.
+
 8.testPriceGreaterThan300AndDiscountGreaterThanZeroAndBarcodeStartsWithZero: Проверува дали се намалува 30 од вкупната цена кога цената е поголема од 300, попустот е поголем од нула и баркодот почнува со 0.
+
 9.testSumGreaterThanPayment: Проверува дали се враќа false кога сумата е поголема од уплатата.
+
 10.testMultipleItems: Проверува дали функцијата работи правилно со повеќе предмети со различни попусти.
+
 11.testMultipleItemsWithDiscountsAndHighPrice: Проверува комбинација на предмети со попусти и висока цена, вклучувајќи ја и логиката за намалување од 30.
 
 **тест случаи според Multiple Condition критериумот**
+
 **Тест случај 1**
 Сценарио: item.getPrice() > 300 е вистинито, item.getDiscount() > 0 е вистинито, item.getBarcode().charAt(0) == '0' е вистинито.
 
